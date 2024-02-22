@@ -1,9 +1,11 @@
 .topbar-main {
   width: 100%;
   height: 70px;
-  background-color: rgba(255, 255, 255, 0.87);
+
   display: flex;
   align-items: center;
+background-color: 	rgb(40, 40, 43);
+  color:white;
 }
 .linkedin-logo {
   width: 65px;
@@ -18,12 +20,15 @@
 }
 
 .react-icon {
-  color: #787878;
+color:white;
+transition: 0.5s;
   cursor: pointer;
 }
 
 .react-icon:hover {
-  color: black;
+  color: rgb(204, 204, 255);
+  scale: 1.29;
+  border-bottom:2px solid white ;
 }
 
 .user-logo {
@@ -32,9 +37,10 @@
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
-  right: 30px;
+  right: 90px;
   cursor: pointer;
 }
+
 
 .popup-position {
   position: absolute;
@@ -49,7 +55,7 @@
   top: 60px;
   width: 240px;
   height: auto;
-  background-color: white;
+  background-color: #9A8373;
   border-radius: 10px;
   border: 1px solid #bbbbbb;
 

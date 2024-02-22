@@ -1,15 +1,15 @@
 .connections-main {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto ;
   gap: 10px;
   justify-content: center;
   align-items: center;
   padding: 10px;
   text-align: center;
   margin: 30px;
-  border: 1px solid #bbbbbb;
-  background-color: white;
+  transition: 0.5s;
   border-radius: 10px;
+  
   .grid-child {
     border: 1px solid #bbbbbb;
     width: 250px;
@@ -17,13 +17,25 @@
     margin: 10px;
     padding: 10px;
     display: flex;
-
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    &:hover{
+      scale: 1.06;
+      box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
+    }
+    
     img {
       width: 150px;
       height: 150px;
@@ -34,8 +46,9 @@
 
     .name {
       font-family: system-ui;
-      font-size: 16px;
+      font-size: 19px;
       font-weight: 600;
+      color:#8B715E;
     }
 
     .headline {
@@ -49,12 +62,12 @@
       width: 90%;
       height: 40px;
       position: absolute;
-
+transition: 0.5s ease-in;
       bottom: 10px;
       cursor: pointer;
       background-color: white;
-      color: #004284;
-      border: 1px solid #004284;
+      color: #6F4E37;
+      border: 1px solid #6F4E37;
       font-size: 16px;
       font-family: system-ui;
       border-radius: 30px;
@@ -66,8 +79,10 @@
     }
 
     button:hover {
-      border: 2px solid #004284;
-      background-color: #bbdefb;
+      border: 2px solid #6F4E37;
+ box-shadow: inset -140px  0px 0px 0px #6F4E37,inset 140px 0px 0px 0px #6F4E37;
+ color:white;
+
     }
   }
 }
