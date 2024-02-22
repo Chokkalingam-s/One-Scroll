@@ -1,22 +1,15 @@
-$linkedinBlue1: rgba(218, 158, 101, 0.726);
-$linkedinBlue2: rgb(148, 103, 60);
-$linkedinBlue3: #6F4E37;
-
 .profile-edit-inputs {
   display: grid;
   margin-top: 40px;
   gap: 20px;
-
-  label {
-    font-family: system-ui;
-    margin-bottom: -15px;
-  }
-
-  .edit-input {
-    width: 300px;
-
-    height: 40px;
-  }
+}
+.profile-edit-inputs label {
+  font-family: system-ui;
+  margin-bottom: -15px;
+}
+.profile-edit-inputs .edit-input {
+  width: 300px;
+  height: 40px;
 }
 
 .save-container {
@@ -28,7 +21,7 @@ $linkedinBlue3: #6F4E37;
   width: 300px;
   height: 50px;
   cursor: pointer;
-  background-color: $linkedinBlue2;
+  background-color: rgb(148, 103, 60);
   border-radius: 30px;
   outline: none;
   border: none;
@@ -41,4 +34,4 @@ $linkedinBlue3: #6F4E37;
 
 .close-icon {
   cursor: pointer;
-}
+}/*# sourceMappingURL=index.css.map */

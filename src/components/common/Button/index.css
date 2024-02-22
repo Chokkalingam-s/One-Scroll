@@ -2,7 +2,7 @@
   width: 200px;
   height: 30px;
   cursor: pointer;
-  background-color: #6f4e37ad;
+  background-color: rgba(111, 78, 55, 0.6784313725);
   border: 2px solid #6F4E37;
   color: white;
   border-radius: 30px;
@@ -16,4 +16,4 @@
   background-color: rgb(230, 230, 230);
   border: 2px solid #6F4E37;
   color: white;
-}
+}/*# sourceMappingURL=index.css.map */
