@@ -8,12 +8,13 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB6KLmY0jgORZGhqUE0CmAQIGQpkLwL8Y8",
-  authDomain: "linkedin-clone-a9087.firebaseapp.com",
-  projectId: "linkedin-clone-a9087",
-  storageBucket: "linkedin-clone-a9087.appspot.com",
-  messagingSenderId: "299859256725",
-  appId: "1:299859256725:web:7d50355f2326c97ad2829c"
+  apiKey: "AIzaSyBnYDAbbY4oMCd7aGTiKxpinyPFjZscMiw",
+  authDomain: "onescroll-choks78.firebaseapp.com",
+  databaseURL: "https://onescroll-choks78-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "onescroll-choks78",
+  storageBucket: "onescroll-choks78.appspot.com",
+  messagingSenderId: "737969586464",
+  appId: "1:737969586464:web:2ca340da3f2936a5d41745"
 };
 
 // Initialize Firebase
