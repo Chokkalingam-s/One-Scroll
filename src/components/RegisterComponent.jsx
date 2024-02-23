@@ -70,7 +70,7 @@ export default function RegisterComponent() {
       <hr class="hr-text" data-content="or" />
       <div className="google-btn-container">
         <p className="go-to-signup">
-          Already on LinkedIn?{" "}
+          Already on One-Scroll?{" "}
           <span className="join-now" onClick={() => navigate("/")}>
             Sign in
           </span>

@@ -11,7 +11,7 @@ export default function LoginComponent() {
   const login = async () => {
     try {
       let res = await LoginAPI(credentails.email, credentails.password);
-      toast.success("Signed In to Linkedin!");
+      toast.success("Signed In to OneScroll!");
       localStorage.setItem("userEmail", res.user.email);
       navigate("/home");
     } catch (err) {
@@ -53,7 +53,7 @@ export default function LoginComponent() {
       <hr className="hr-text" data-content="or" />
       <div className="google-btn-container">
         <p className="go-to-signup">
-          New to LinkedIn?{" "}
+          New to OneScroll?{" "}
           <span className="join-now" onClick={() => navigate("/register")}>
             Join now
           </span>
