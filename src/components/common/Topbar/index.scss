@@ -1,11 +1,18 @@
 .topbar-main {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 70px;
-
   display: flex;
   align-items: center;
-background-color: 	rgb(40, 40, 43);
-  color:white;
+  background-color: rgb(40, 40, 43);
+  color: #ffffff;
+  z-index: 999;
+}
+
+.content {
+  margin-top: 70px; /* Adjust the gap between topbar and content */
 }
 .linkedin-logo {
   width: 65px;

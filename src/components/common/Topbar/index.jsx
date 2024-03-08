@@ -66,6 +66,7 @@ export default function Topbar({ currentUser }) {
     getAllUsers(setUsers);
   }, []);
   return (
+    <>
     <div className="topbar-main">
       {popupVisible ? (
         <div className="popup-position">
@@ -100,7 +101,11 @@ export default function Topbar({ currentUser }) {
           />
           <BsBriefcase size={30} className="react-icon" />
           <AiOutlineMessage size={30} className="react-icon" />
-          <AiOutlineBell size={30} className="react-icon" />
+          <AiOutlineBell 
+            size={30} 
+            className="react-icon"
+           onClick={() => goToRoute("/notifications")}
+           />
         </div>
       )}
       <img
@@ -127,5 +132,8 @@ export default function Topbar({ currentUser }) {
         </div>
       )}
     </div>
+    <div className="content">
+    </div>
+    </>
   );
 }
