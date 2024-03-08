@@ -3,6 +3,7 @@ import { getAllUsers, addConnection } from "../api/FirestoreAPI";
 import ConnectedUsers from "./common/ConnectedUsers";
 import "../Sass/ConnectionsComponent.scss";
 
+
 export default function ContactUsComponent({ currentUser }) {
   const [users, setUsers] = useState([]);
   const getCurrentUser = (id) => {
@@ -13,6 +14,7 @@ export default function ContactUsComponent({ currentUser }) {
   }, []);
   return(
     <div>
+    
     </div>
   )
   }

@@ -16,6 +16,7 @@ import { getAllUsers } from "../../../api/FirestoreAPI";
 import ProfilePopup from "../ProfilePopup";
 import "./index.scss";
 
+
 export default function Topbar({ currentUser }) {
   const [popupVisible, setPopupVisible] = useState(false);
   const [isSearch, setIsSearch] = useState(false);
@@ -63,6 +64,7 @@ export default function Topbar({ currentUser }) {
     return () => clearTimeout(debounced);
   }, [searchInput]);
 
+
   useEffect(() => {
     getAllUsers(setUsers);
   }, []);
@@ -88,7 +90,7 @@ export default function Topbar({ currentUser }) {
           <AiOutlineSearch
             size={30}
             className="react-icon"
-            onClick={() => setIsSearch(true)}
+            onClick={() => {setIsSearch(true),setOpened(true)}}
           />
           <AiOutlineHome
             size={30}
@@ -140,6 +142,7 @@ export default function Topbar({ currentUser }) {
       )}
     </div>
     <div className="content">
+    
     </div>
     </>
   );
