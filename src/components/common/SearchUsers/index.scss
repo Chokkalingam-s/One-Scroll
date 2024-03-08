@@ -1,5 +1,5 @@
 .search-users {
-  width: 40%;
+  width: 55%;
   margin-left: 15px;
   display: flex;
   align-items: center;
@@ -28,4 +28,13 @@
     font-size: 14px;
     font-family: Inter;
   }
+  
+  
+}
+
+.searchBtn{
+  margin-left: 20px;
+  background-color: transparent;
+  color: rgba(252, 207, 164, 0.726);
+  border-color: #dbdbdb;
 }

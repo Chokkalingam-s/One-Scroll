@@ -8,6 +8,7 @@ import {
   AiOutlineSearch,
   AiOutlineMessage,
   AiOutlineBell,
+  AiOutlineIssuesClose,
 } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import { BsBriefcase } from "react-icons/bs";
@@ -76,7 +77,7 @@ export default function Topbar({ currentUser }) {
         <></>
       )}
 
-      <img className="linkedin-logo" src={LinkedinLogo} alt="LinkedinLogo" />
+      <img className="linkedin-logo" src={LinkedinLogo} alt="LinkedinLogo" onClick={() => goToRoute("/home")}/>
       {isSearch ? (
         <SearchUsers
           setIsSearch={setIsSearch}
@@ -106,6 +107,12 @@ export default function Topbar({ currentUser }) {
             className="react-icon"
            onClick={() => goToRoute("/notifications")}
            />
+
+          <AiOutlineIssuesClose 
+            size={30} 
+            className="react-icon"
+            onClick={() => goToRoute("/ContactUs")}
+            />
         </div>
       )}
       <img
