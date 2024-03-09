@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 
 .contact-form {
@@ -15,7 +16,7 @@
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-
+  
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 position: relative;
 
@@ -25,6 +26,8 @@ position: relative;
     label {
       display: block;
       margin-bottom: 5px;
+      color: #1c2e41;
+      font-weight: 690;
     }
 
     input,
@@ -36,9 +39,10 @@ position: relative;
       font-size: 15px;
       font-weight: 900;
       outline: none;
+      background-color: #b8d0eb;
     }
 input:hover{
-  outline: solid sandybrown;
+  outline: solid .2px #1c2e4154;
 }
     textarea {
       height: 100px;
@@ -48,15 +52,16 @@ input:hover{
   button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #1c2e41;
+    color: #8fb4db;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #0056b3;
+      background-color: #8fb4db;
+      color: #1c2e41;
     }
   }
 }
@@ -75,12 +80,19 @@ input:hover{
   height:529px;
   border-radius: 15px 0px 0px 15px;
   width: 560px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .contacth1{
   font-family: 'Bungee Inline', cursive;
   display: flex;
-align-items: center;
+  align-items: center;
 justify-content: center;
+color: #1c2e41;
 }
 .contact-form-container{
   position: relative;

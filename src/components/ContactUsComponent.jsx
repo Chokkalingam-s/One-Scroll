@@ -5,6 +5,7 @@ import "../Sass/ContactUsComponent.scss";
 import { firestore } from "../firebaseConfig";
 import { collection, addDoc } from 'firebase/firestore';
 import { toast } from "react-toastify";
+import OneScrollContactUsImg from "../assets/OneScroll-ContactUs.png";
 
 
 
@@ -47,7 +48,7 @@ export default function ContactUsComponent({ currentUser }) {
   return (
     <div className="contact-form-container">
       
-      <img src="https://media.istockphoto.com/id/1271752802/photo/phone-and-e-mail-icons-on-wooden-cubes-with-contact-us-text-on-blue-background-web-page.jpg?s=612x612&w=0&k=20&c=dk9oPaDy_L9mv_icOMgsFGzEDrX0NUI3I8xBQ-DAxQM=" alt="" />
+      <img src={OneScrollContactUsImg}alt="Contac Us Img" />
       <form className="contact-form" onSubmit={handleSubmit}>
       <h1 className="contacth1">Contact Us</h1>
         <div className="form-group">
