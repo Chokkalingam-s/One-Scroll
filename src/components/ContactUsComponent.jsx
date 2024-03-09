@@ -44,10 +44,14 @@ export default function ContactUsComponent({ currentUser }) {
   
   return (
     <div className="contact-form-container">
+      
+      <img src="https://media.istockphoto.com/id/1271752802/photo/phone-and-e-mail-icons-on-wooden-cubes-with-contact-us-text-on-blue-background-web-page.jpg?s=612x612&w=0&k=20&c=dk9oPaDy_L9mv_icOMgsFGzEDrX0NUI3I8xBQ-DAxQM=" alt="" />
       <form className="contact-form" onSubmit={handleSubmit}>
+      <h1 className="contacth1">Contact Us</h1>
         <div className="form-group">
           <label>Email</label>
           <input
+          className="email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -57,6 +61,7 @@ export default function ContactUsComponent({ currentUser }) {
         <div className="form-group">
           <label>Subject</label>
           <input
+           className="text"
             type="text"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
@@ -71,7 +76,7 @@ export default function ContactUsComponent({ currentUser }) {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="button"  >Submit</button>
       </form>
     </div>
   );
