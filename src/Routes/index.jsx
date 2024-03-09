@@ -6,6 +6,7 @@ import ProfileLayout from "../layouts/ProfileLayout";
 import ConnectionLayout from "../layouts/ConnectionLayout";
 import NotificationLayout from "../layouts/NotificationLayout";
 import ContactUsLayout from "../layouts/ContactUsLayout";
+import NotesLayout from "../layouts/NotesLayout";
 
 export const router = createBrowserRouter([
   {
@@ -35,5 +36,10 @@ export const router = createBrowserRouter([
   {
     path:"/ContactUs",
     element:<ContactUsLayout />
-  }
+  },
+  { 
+    path:"Notes",
+    element: <NotesLayout />
+    
+  },
 ]);

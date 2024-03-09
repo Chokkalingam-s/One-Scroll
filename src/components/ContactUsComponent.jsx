@@ -74,6 +74,7 @@ export default function ContactUsComponent({ currentUser }) {
           <label>Message</label>
           <textarea
             value={message}
+            className="message"
             onChange={(e) => setMessage(e.target.value)}
             required
           />
