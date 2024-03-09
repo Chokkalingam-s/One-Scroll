@@ -4,6 +4,8 @@ import ConnectedUsers from "./common/ConnectedUsers";
 import "../Sass/ContactUsComponent.scss";
 import { firestore } from "../firebaseConfig";
 import { collection, addDoc } from 'firebase/firestore';
+import { toast } from "react-toastify";
+
 
 
 
@@ -34,10 +36,10 @@ export default function ContactUsComponent({ currentUser }) {
       setEmail('');
       setSubject('');
       setMessage('');
-      alert('Message sent successfully!');
+      toast.success('Message sent successfully!');
     } catch (error) {
       console.error('Error adding document: ', error);
-      alert('Failed to send message. Please try again later.');
+      toast.error('Failed to send message. Please try again later.');
     }
   };
 
