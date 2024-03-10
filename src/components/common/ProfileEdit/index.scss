@@ -14,6 +14,12 @@ $linkedinBlue3: #6F4E37;
   margin-right: auto;
   margin-top: 90px;
   position: relative;
+
+  .edit-btn {
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 90%;
+    }
   
 }
 .profile-edit-inputs {
@@ -59,7 +65,3 @@ $linkedinBlue3: #6F4E37;
   position: relative;
 }
 
-.edit-btn {
-  position: absolute;
-  right: 20px;
-  margin-top: 10%;}

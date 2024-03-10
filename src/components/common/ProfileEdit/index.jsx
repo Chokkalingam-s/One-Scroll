@@ -35,7 +35,7 @@ export default function ProfileEdit({ onEdit, currentUser }) {
         <input
           onChange={getInput}
           className="common-input"
-          placeholder="Headline"
+          placeholder="Field and Type eg: Shirt Distribuotr , Shoe retailer"
           value={editInputs.headline}
           name="headline"
         />
@@ -63,15 +63,7 @@ export default function ProfileEdit({ onEdit, currentUser }) {
           value={editInputs.company}
           name="company"
         />
-       
-        <label>College</label>
-        <input
-          onChange={getInput}
-          className="common-input"
-          placeholder="College"
-          name="college"
-          value={editInputs.college}
-        />
+      
         <label>Website</label>
         <input
           onChange={getInput}
@@ -89,11 +81,11 @@ export default function ProfileEdit({ onEdit, currentUser }) {
           name="aboutMe"
           value={editInputs.aboutMe}
         />
-        <label>Skills</label>
+        <label>Other Info</label>
         <input
           onChange={getInput}
           className="common-input"
-          placeholder="Skill"
+          placeholder="Feel free to share"
           name="skills"
           value={editInputs.skills}
         />
