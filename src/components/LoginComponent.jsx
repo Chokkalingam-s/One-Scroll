@@ -22,7 +22,8 @@ export default function LoginComponent() {
 
   return (
     <div className="login-wrapper">
-      <img src={LinkedinLogo} className="linkedinLogo" />
+    
+<div className="login-container">
 
       <div className="login-wrapper-inner">
         <h1 className="heading">Sign in</h1>
@@ -49,8 +50,8 @@ export default function LoginComponent() {
         <button onClick={login} className="login-btn">
           Sign in
         </button>
-      </div>
-      <hr className="hr-text" data-content="or" />
+
+      <hr className="hr-text" />
       <div className="google-btn-container">
         <p className="go-to-signup">
           New to OneScroll?{" "}
@@ -58,7 +59,7 @@ export default function LoginComponent() {
             Join now
           </span>
         </p>
-      </div>
+      </div></div></div>
     </div>
   );
 }
