@@ -39,7 +39,7 @@ position: relative;
       font-size: 15px;
       font-weight: 900;
       outline: none;
-      background-color: #b8d0eb;
+      background-color: #b5dadf;
     }
 input:hover{
   outline: solid .2px #1c2e4154;
@@ -53,14 +53,14 @@ input:hover{
     width: 100%;
     padding: 10px;
     background-color: #1c2e41;
-    color: #8fb4db;
+    color: #b5dadf;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #8fb4db;
+      background-color: rgb(125, 207, 125);
       color: #1c2e41;
     }
   }
@@ -93,6 +93,7 @@ input:hover{
   align-items: center;
 justify-content: center;
 color: #1c2e41;
+font-weight: 1400;
 }
 .contact-form-container{
   position: relative;
