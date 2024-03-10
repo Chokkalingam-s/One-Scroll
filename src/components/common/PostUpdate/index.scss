@@ -6,8 +6,8 @@
   position: relative;
   
   .user-details {
-    width: 550px;
-    height: auto;
+    width: 650px;
+    height: 140px;
     background-color:#9A8373;
     margin-top: 100px;
     border: 1px solid #b7b7b7;
@@ -26,8 +26,9 @@
     }
 
     .name {
-      font-weight: 600;
+      font-weight: 700;
       font-family: system-ui;
+      font-style: italic;
     }
 
     .headline {
@@ -36,7 +37,7 @@
     }
   }
   .post-status {
-    width: 550px;
+    width: 650px;
     height: 120px;
     background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
