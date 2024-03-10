@@ -17,7 +17,7 @@ export default function ProfileEdit({ onEdit, currentUser }) {
   };
 
   return (
-    <div className="profile-card">
+    <div className="profile-card1">
       <div className="edit-btn">
         <AiOutlineClose className="close-icon" onClick={onEdit} size={25} />
       </div>
@@ -63,14 +63,7 @@ export default function ProfileEdit({ onEdit, currentUser }) {
           value={editInputs.company}
           name="company"
         />
-        <label>Industry </label>
-        <input
-          onChange={getInput}
-          className="common-input"
-          placeholder="Industry"
-          name="industry"
-          value={editInputs.industry}
-        />
+       
         <label>College</label>
         <input
           onChange={getInput}

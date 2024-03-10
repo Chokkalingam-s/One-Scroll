@@ -171,3 +171,33 @@ hr{
 input::placeholder{
   color:lightgray;
 }
+.name{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 28px;
+}
+.userlog{
+color:#6F4E37;
+}
+.profile-card{
+ height:900px;
+}
+.profile-edit-input input{
+  width: 100px;
+}
+.close-icon{
+  position: relative;
+  top:-460px;
+  background-color: #6F4E37;
+  padding:8px;
+  border-radius: 50%;
+  color:#fcfcfa
+}
+.save-container{
+  position: relative;
+  top:480px;
+  padding:30px;
+}

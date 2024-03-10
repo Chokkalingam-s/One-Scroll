@@ -1,7 +1,21 @@
 $linkedinBlue1: rgba(218, 158, 101, 0.726);
 $linkedinBlue2: rgb(148, 103, 60);
 $linkedinBlue3: #6F4E37;
-
+.profile-card1{
+  width: 60%;
+  display:flex;
+  justify-items: center;
+  align-items: center;
+  height: 9%;
+  background-color: #d4c4ba;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  position: relative;
+  
+}
 .profile-edit-inputs {
   display: grid;
   margin-top: 40px;
@@ -41,4 +55,11 @@ $linkedinBlue3: #6F4E37;
 
 .close-icon {
   cursor: pointer;
+  display: flex;
+  position: relative;
 }
+
+.edit-btn {
+  position: absolute;
+  right: 20px;
+  margin-top: 10%;}

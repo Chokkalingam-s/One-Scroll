@@ -25,7 +25,7 @@ export default function ProfilePopup() {
           })
         }
       />
-      <Button title="Log out" onClick={onLogout} />
+      <Button title="Log out" className="userlog"onClick={onLogout} />
     </div>
   );
 }

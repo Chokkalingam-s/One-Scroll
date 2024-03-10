@@ -17,7 +17,9 @@
     text-align: left;
     margin-top: -7px;
   }
-
+.content{
+  width: 500px;
+}
   .headline {
     font-size: 14px;
     font-weight: 400;
@@ -27,4 +29,32 @@
   .popup-option {
     cursor: pointer;
   }
+}
+.popup-card{
+
+  
+}
+.popup-card p{
+  position: relative;
+  left:70px;
+
+}
+
+.profile-edit-inputs input{
+width: 800px;
+padding:8px;
+border-radius: 9px;
+border: none;
+}
+.profile-edit-inputs{
+  width: 500px;
+}
+
+.heading p {
+  font-size: 40px;
+  font-weight: 800;
+}
+p.company{
+  font-size: 50px;
+ font-weight: 500;
 }

@@ -47,7 +47,7 @@ export default function LoginComponent() {
             placeholder="Password"
           />
         </div>
-        <button onClick={login} className="login-btn ">
+        <button onClick={login} className="login-btn x">
           Sign in
         </button>
 
