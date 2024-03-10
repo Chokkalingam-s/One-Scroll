@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LoginAPI } from "../api/AuthAPI";
-import LinkedinLogo from "../assets/linkedinLogo.png";
+import OneScrollLoginImg from "../assets/OneScroll-login.png";
 import { useNavigate } from "react-router-dom";
 import "../Sass/LoginComponent.scss";
 import { toast } from "react-toastify";
@@ -24,7 +24,7 @@ export default function LoginComponent() {
     <div className="login-wrapper">
     
 <div className="login-container">
-
+      <img className="LoginImg" src={OneScrollLoginImg} alt="Login IMAGE"></img>
       <div className="login-wrapper-inner">
         <h1 className="heading">Sign in</h1>
         <p className="sub-heading">Stay updated on your professional world</p>
@@ -47,7 +47,7 @@ export default function LoginComponent() {
             placeholder="Password"
           />
         </div>
-        <button onClick={login} className="login-btn">
+        <button onClick={login} className="login-btn ">
           Sign in
         </button>
 

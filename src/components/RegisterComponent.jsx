@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { RegisterAPI } from "../api/AuthAPI";
 import { postUserData } from "../api/FirestoreAPI";
-import LinkedinLogo from "../assets/linkedinLogo.png";
+import OneScrollLoginImg from "../assets/OneScroll-login.png"
 import { useNavigate } from "react-router-dom";
 import { getUniqueID } from "../helpers/getUniqueId";
 import "../Sass/LoginComponent.scss";
@@ -32,10 +32,13 @@ export default function RegisterComponent() {
 
   return (
     <div className="login-wrapper">
-      <img src={LinkedinLogo} className="linkedinLogo" />
+      <div className="login-container">
+      <img src={OneScrollLoginImg} className="LoginImg" />
 
       <div className="login-wrapper-inner">
-        <h1 className="heading">Make the most of your professional life</h1>
+      <h1 className="heading">Sign Up</h1>
+        <p className="sub-heading">Make your professional life Better!</p>
+
 
         <div className="auth-inputs">
           <input
@@ -66,8 +69,8 @@ export default function RegisterComponent() {
         <button onClick={register} className="login-btn">
           Agree & Join
         </button>
-      </div>
-      <hr class="hr-text" data-content="or" />
+      
+      <hr class="hr-text" />
       <div className="google-btn-container">
         <p className="go-to-signup">
           Already on One-Scroll?{" "}
@@ -76,6 +79,8 @@ export default function RegisterComponent() {
           </span>
         </p>
       </div>
+      </div>
+    </div>
     </div>
   );
 }
