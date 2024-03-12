@@ -8,12 +8,13 @@ $gray-600: rgb(0, 0, 0);
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 4%;
+
     
   .card {
     margin-bottom: 9px;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    border-radius: 20px 20px 12px 12px ;
     
     .card-header {
       background-color: $primary;
