@@ -10,7 +10,7 @@ $gray-600: rgb(0, 0, 0);
     margin-bottom: 4%;
     
   .card {
-    margin-bottom: 19px;
+    margin-bottom: 9px;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
@@ -51,4 +51,12 @@ $gray-600: rgb(0, 0, 0);
       }
     }
   }
+}
+.card:hover{
+  animation :bounces 2s infinite;
+}
+@keyframes bounces{
+  0%{transform: translateY(0);}
+  40%{transform: translateY(-30px);}
+  60%{transform: translateY(20px);}
 }

@@ -7,10 +7,6 @@ import { collection, addDoc } from 'firebase/firestore';
 import { toast } from "react-toastify";
 import OneScrollContactUsImg from "../assets/OneScroll-ContactUs.png";
 
-
-
-
-
 export default function ContactUsComponent({ currentUser }) {
   const [users, setUsers] = useState([]);
   const getCurrentUser = (id) => {
@@ -48,7 +44,7 @@ export default function ContactUsComponent({ currentUser }) {
   return (
     <div className="contact-form-container">
       
-      <img src={OneScrollContactUsImg}alt="Contac Us Img" />
+      <img src={OneScrollContactUsImg}alt="Contact Us Img" />
       <form className="contact-form" onSubmit={handleSubmit}>
       <h1 className="contacth1">Contact Us</h1>
         <div className="form-group">
