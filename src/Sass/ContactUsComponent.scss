@@ -39,7 +39,8 @@ position: relative;
       font-size: 15px;
       font-weight: 900;
       outline: none;
-      background-color: #b5dadf;
+    background-color: transparent;
+      border-bottom: 3px solid rgba( 31, 38, 135, 0.37 );
     }
 input:hover{
   outline: solid .2px #1c2e4154;
@@ -65,17 +66,7 @@ input:hover{
     }
   }
 }
-// .email{
-//   background-color: transparent;
-//   border: none;
-//   outline: none;
-//   border-bottom: 3px solid black;
-//   width: 80%;
-// }
-// .email input{
-//   border-bottom: 3px solid black;
-//   width: 80%;
-// }
+
 .contact-form-container img{
   height:529px;
   border-radius: 15px 0px 0px 15px;
@@ -98,4 +89,8 @@ font-weight: 1400;
 .contact-form-container{
   position: relative;
  bottom:30px;
+}
+input{
+  background-color: none;
+
 }
