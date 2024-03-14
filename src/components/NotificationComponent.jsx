@@ -35,11 +35,10 @@ export default function NotificationComponent({ currentUser }) {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            Notification 2.{' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            ----<cite title="Source Title">By Name</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
