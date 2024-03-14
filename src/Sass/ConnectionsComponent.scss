@@ -1,81 +1,28 @@
 .connections-main {
-  display: grid;
-  grid-template-columns: auto auto auto ;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  text-align: center;
-  margin: 30px;
-  transition: 0.5s;
-  border-radius:  10px;
+  display: grid;grid-template-columns: auto auto auto ;gap: 10px;justify-content: center;
+  align-items: center;padding: 10px;text-align: center;margin: 30px;transition: 0.5s;border-radius:  10px;
   
   .grid-child {
-    border: 1px solid #bbbbbb;
-    width: 250px;
-    height: 330px;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    position: relative;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: 0.5s;
-    background: rgba( 255, 255, 255, 0.25 );
-
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
+    border: 1px solid #bbbbbb;width: 250px;height: 330px;margin: 10px;padding: 10px;
+    display: flex;box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    align-items: center;flex-direction: column;border-radius: 10px;position: relative;cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;transition: 0.5s;
+    background: rgba( 255, 255, 255, 0.25 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;
 
     &:hover{
-      scale: 1.06;
-      box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
+      scale: 1.06;box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
     }
     
     img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 20px;
+      width: 150px; height: 150px;border-radius: 50%;object-fit: cover;margin-top: 20px;
     }
-
-    .name {
-      font-family: system-ui;
-      font-size: 19px;
-      font-weight: 600;
-      color:#8B715E;
-    }
-
-    .headline {
-      margin-top: -15px;
-      font-family: system-ui;
-      font-size: 15px;
-      font-weight: 400;
-    }
+.name {font-family: system-ui;font-size: 19px;font-weight: 600;color:#8B715E;}
+.headline {margin-top: -15px;font-family: system-ui;font-size: 15px;font-weight: 400;}
 
     button {
-      width: 90%;
-      height: 40px;
-      position: absolute;
-transition: 0.5s ease-in;
-      bottom: 10px;
-      cursor: pointer;
-      background-color: white;
-      color: #6F4E37;
-      border: 1px solid #6F4E37;
-      font-size: 16px;
-      font-family: system-ui;
-      border-radius: 30px;
-      font-weight: 600;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
+      width: 90%;height: 40px;position: absolute;transition: 0.5s ease-in;bottom: 10px;cursor: pointer;
+      background-color: white;color: #6F4E37;border: 1px solid #6F4E37;font-size: 16px;font-family: system-ui;
+      border-radius: 30px;font-weight: 600;display: flex;justify-content: center;align-items: center;gap: 10px;
     }
 
     button:hover {

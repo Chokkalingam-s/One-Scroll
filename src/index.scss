@@ -1,56 +1,18 @@
 $linkedinBlue1: rgba(218, 158, 101, 0.726);
 $linkedinBlue2: rgb(148, 103, 60);
 $linkedinBlue3: #6F4E37;
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #212121;
-  background-color:  #E2DBD7 !important;
-  scrollbar-width: none;
+  line-height: 1.5; font-weight: 400; color: #212121; background-color:  #E2DBD7 !important; scrollbar-width: none;
   background-image: linear-gradient(45deg, transparent 0%, transparent 55%,rgba(64, 64, 64,0.04) 55%, rgba(64, 64, 64,0.04) 76%,transparent 76%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 14%,rgba(64, 64, 64,0.04) 14%, rgba(64, 64, 64,0.04) 41%,transparent 41%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgba(64, 64, 64,0.04) 2%, rgba(64, 64, 64,0.04) 18%,transparent 18%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 61%,rgba(64, 64, 64,0.04) 61%, rgba(64, 64, 64,0.04) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, #c8ac99,#E2DBD7);
-  background-attachment: fixed;
-}
-
+  background-attachment: fixed;}
 .common-input {
-  height: 20px;
-  padding: 10px;
-  background-color: white;
-  outline: none;
-  border: 1px solid #212121;
-  color: #212121;
-  border-radius: 3px;
-  font-family: system-ui;
-  font-size: 16px;
-
+  height: 20px;padding: 10px;background-color: white;outline: none;border: 1px solid #212121;color: #212121;border-radius: 3px;font-family: system-ui;font-size: 16px;
 }
-.common-input:focus {
-  outline: 1px solid $linkedinBlue1;
-}
-::placeholder {
-  font-family: system-ui;
-  font-size: 16px;
-}
-
-.common-textArea {
-  padding: 10px;
-  background-color: white;
-  outline: none;
-  border: 1px solid #212121;
-  color: #212121;
-  border-radius: 3px;
-  font-family: system-ui;
-  font-size: 16px;
-  margin: -10px 0px;
-}
-
-.common-textArea:focus {
-  outline: 1px solid $linkedinBlue1;
-}
-::placeholder {
-  font-family: system-ui;
-  font-size: 16px;
-}
+.common-input:focus { outline: 1px solid $linkedinBlue1;}
+::placeholder {font-family: system-ui;font-size: 16px;}
+.common-textArea {padding: 10px;background-color: white;outline: none;border: 1px solid #212121;color: #212121;
+ border-radius: 3px;font-family: system-ui;font-size: 16px;margin: -10px 0px;}
+.common-textArea:focus { outline: 1px solid $linkedinBlue1;}
+::placeholder {font-family: system-ui;font-size: 16px;}
