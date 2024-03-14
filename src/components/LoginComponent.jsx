@@ -22,8 +22,7 @@ export default function LoginComponent() {
 
   return (
     <div className="login-wrapper">
-    
-<div className="login-container">
+     <div className="login-container">
       <img className="LoginImg" src={OneScrollLoginImg} alt="Login IMAGE"></img>
       <div className="login-wrapper-inner">
         <h1 className="heading">Sign in</h1>
@@ -47,19 +46,11 @@ export default function LoginComponent() {
             placeholder="Password"
           />
         </div>
-        <button onClick={login} className="login-btn x">
-          Sign in
-        </button>
-
+        <button onClick={login} className="login-btn x">Sign in</button>
       <hr className="hr-text" />
       <div className="google-btn-container">
         <p className="go-to-signup">
-          New to OneScroll?{" "}
-          <span className="join-now" onClick={() => navigate("/register")}>
-            Join now
-          </span>
-        </p>
-      </div></div></div>
-    </div>
+          New to OneScroll?{" "}<span className="join-now" onClick={() => navigate("/register")}>Join now
+          </span></p></div></div></div></div>
   );
 }
