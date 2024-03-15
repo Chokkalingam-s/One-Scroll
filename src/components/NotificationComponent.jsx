@@ -24,7 +24,7 @@ export default function NotificationComponent({ currentUser }) {
             Summer Sales! Hurry up to get 15% discount on this Summer | Whole sale Shirts & Tshirts{' '}
           </p>
           <footer className="blockquote-footer">
-            ---<cite title="Source Title">N.S.Marketing</cite>
+            ---<cite title="Source Title">N.S.Marketing, Madurai</cite>
           </footer>
         </blockquote>
       </Card.Body>
@@ -35,20 +35,20 @@ export default function NotificationComponent({ currentUser }) {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Notification 2.{' '}
+            Hey Users! How are You ? Is there any Feedback for our service?
+           {' '}
           </p>
           <footer className="blockquote-footer">
-            ----<cite title="Source Title">By Name</cite>
+            ---! -<cite title="Source Title">{' '}OneScroll</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+           Lycra Zone - Purchase All Synthetic in one place with Flat 5% cd{' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            --- <cite title="Source Title">Indian Flower ,Coimbatore </cite>
           </footer>
         </blockquote>
       </Card.Body>
@@ -59,51 +59,43 @@ export default function NotificationComponent({ currentUser }) {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            Happy to announce the opening of our new store in Tirupur. Visit us to get 10% discount on all products.{' '}
+            {' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            --- <cite title="Source Title">Vinayaga garments, Tirupur</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
           <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            {' '} Order Refill ? Time to load the most pruchased products of Levi's shirts {' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            --- <cite title="Source Title">Levi's Zone, Chennai</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
           <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            {' '}Reminder!!! Be the first 100 to order in this month to get 10+1 offer{' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            ---<cite title="Source Title">Srinithi Garments, Salem</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
           <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            {' '} Any Help! Use ContactUs feature to directly Inertact with us! #HappyUserHappyUs{' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+          ---! - <cite title="Source Title">{' '}OneScroll</cite>
           </footer>
         </blockquote>
         <blockquote className="blockquote mb-0">
           <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
+            {' '} Welcome to OneScroll! We inivite you to #BusinessTogether! Happy Business{' '}
           </p>
           <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
+            ---! - <cite title="Source Title">{' '}OneScroll</cite>
           </footer>
         </blockquote>
       </Card.Body>
