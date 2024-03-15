@@ -150,9 +150,6 @@ export default function Topbar({ currentUser }) {
         </div>
       )}
     </div>
-    <div className="content">
-    
-    </div>
     </>
   );
 }
