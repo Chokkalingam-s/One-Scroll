@@ -12,6 +12,7 @@ export default function AdComponent({ currentUser }) {
   }, []);
 
   return (
-    <div></div>
+    <div>
+    </div>
   );
 };
