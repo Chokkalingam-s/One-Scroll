@@ -5,10 +5,10 @@ Dont copy for personal use
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
+| All versions   | :white_check_mark: |
 | No version   | :x:                |
 
 ## Reporting a Vulnerability
  
  Report either by ContactUs feature inside the app 
- Mail: chokka7878@gmail.com | Contact: 98947 03845
+ Mail: chokka7878@gmail.com | Contact: 9894703845
