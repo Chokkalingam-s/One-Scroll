@@ -11,7 +11,7 @@ export default function AdComponent(){
             let intervalId = setInterval(() => {
                 setIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1))
                 imgRefs.current[index]?.scrollIntoView({ behavior: 'smooth' })
-            }, 2800)
+            }, 2990)
             return () => clearInterval(intervalId)
         }, [images.length, index])
     
