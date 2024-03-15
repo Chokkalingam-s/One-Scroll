@@ -1,0 +1,27 @@
+.carousel-container {
+	width: 72vw;
+	overflow-x: scroll;
+}
+.carousel-container::-webkit-scrollbar {
+	display: none;
+}
+
+.carouselItems {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.carouselItems img {
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.rad10 {
+	border-radius: 10px;
+}
+.page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
