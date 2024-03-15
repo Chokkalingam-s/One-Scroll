@@ -103,7 +103,8 @@ export default function Topbar({ currentUser }) {
             className="react-icon"
             onClick={() => goToRoute("/connections")}
           />
-          <BsBriefcase size={30} className="react-icon" />
+          <BsBriefcase size={30} className="react-icon"
+          onClick={() => goToRoute("/BusinessWithUs")} />
          
           <AiOutlineMessage size={30} className="react-icon" />
           <AiOutlineBell 

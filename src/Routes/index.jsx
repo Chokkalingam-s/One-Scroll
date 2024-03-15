@@ -7,6 +7,7 @@ import ConnectionLayout from "../layouts/ConnectionLayout";
 import NotificationLayout from "../layouts/NotificationLayout";
 import ContactUsLayout from "../layouts/ContactUsLayout";
 import NotesLayout from "../layouts/NotesLayout";
+import AdLayout from "../layouts/AdLayout";
 
 export const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
   { 
     path:"Notes",
     element: <NotesLayout />
+  },
+  { 
+    path:"BusinessWithUs",
+    element: <AdLayout />
     
   },
 ]);
