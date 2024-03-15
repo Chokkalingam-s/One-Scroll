@@ -3,6 +3,7 @@
   margin-left: 15px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   .close-icon {
     margin-left: -30px;
     color: #707070;
@@ -12,29 +13,17 @@
     height: 30px;
     background-color: #E2DBD7;
     border: 1px solid #bbbbbb;
-    border-radius: 10px;
-    color: #212121;
-    padding-left: 10px;
-    font-size: 14px;
-    outline: none;
-    font-family: Inter;
+    border-radius: 10px;color: #212121;padding-left: 10px;font-size: 14px;outline: none;font-family: Inter;}
+  input:focus {border: 1px solid #707070;}
+::placeholder {font-size: 14px;font-family: Inter;}
+  .searchBtn{
+    display: flex;
+    margin-left: 22px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: rgba(252, 207, 164, 0.726);
+    border-color: #dbdbdb;
   }
-
-  input:focus {
-    border: 1px solid #707070;
-  }
-
-  ::placeholder {
-    font-size: 14px;
-    font-family: Inter;
-  }
-  
-  
 }
 
-.searchBtn{
-  margin-left: 20px;
-  background-color: transparent;
-  color: rgba(252, 207, 164, 0.726);
-  border-color: #dbdbdb;
-}
